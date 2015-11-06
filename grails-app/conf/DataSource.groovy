@@ -5,6 +5,29 @@ dataSource {
 	username = "sa"
 	password = ""
 }
+
+dataSource_micc {
+	dbCreate = "validate"
+	url = "jdbc:oracle:thin:@addressPerMicc"
+	username="user"
+	password="password"
+	dialect = org.hibernate.dialect.Oracle10gDialect
+	driverClassName = 'oracle.jdbc.driver.OracleDriver'
+
+}
+dataSource_mias {
+	dbCreate = "validate"
+	url = "jdbc:oracle:thin:@addressPerMias"
+	username="user"
+	password="password"
+	dialect = org.hibernate.dialect.Oracle10gDialect
+	driverClassName = 'oracle.jdbc.driver.OracleDriver'
+
+}
+
+
+
+
 hibernate {
 	cache.use_second_level_cache = true
 	cache.use_query_cache = false

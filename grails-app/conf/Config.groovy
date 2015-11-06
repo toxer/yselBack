@@ -137,3 +137,5 @@ environments {
 
 	}
 }
+
+codici_camera="[{codiceEaco:'111335',nome:'PROMOVARESE',codiceSipert:4071,datasource:'Micc'},{codiceEaco:'111111',nome:'INFOCAMERE',codiceSipert:4070,datasource:'Mias'}]"
